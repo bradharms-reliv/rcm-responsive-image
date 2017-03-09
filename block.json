@@ -1,0 +1,48 @@
+{
+  "name": "RcmResponsiveImage",
+  "category": "Common",
+  "label": "Responsive Image",
+  "description": "Shows different images based on boostrap view size",
+  "renderer": "mustache",
+  "icon": "",
+  "cache": true,
+  "editor": "field-dialog",
+  "fields": [
+    {
+      "name": "xsSrc",
+      "type": "image",
+      "label": "Extra small (xs) Image",
+      "default": "https://reliv-static.s3.amazonaws.com/art/WebStuff/Fit3Site/homepage/emailBar/emailBar690xs-web.jpg"
+    },
+    {
+      "name": "smSrc",
+      "type": "image",
+      "label": "Small (sm) Image",
+      "default": "https://reliv-static.s3.amazonaws.com/art/WebStuff/Fit3Site/homepage/emailBar/emailBar690-web.png"
+    },
+    {
+      "name": "mdSrc",
+      "type": "image",
+      "label": "Medium (md) Image",
+      "default": "https://reliv-static.s3.amazonaws.com/art/WebStuff/Fit3Site/homepage/emailBar/emailBar910-web.png"
+    },
+    {
+      "name": "lgSrc",
+      "type": "image",
+      "label": "Large (lg) Image",
+      "default": "https://reliv-static.s3.amazonaws.com/art/WebStuff/Fit3Site/homepage/emailBar/emailBar1110-web.png"
+    },
+    {
+      "name": "href",
+      "type": "url",
+      "label": "Link Url",
+      "default": "https://reliv.com"
+    },
+    {
+      "name": "alt",
+      "type": "text",
+      "label": "Alt Description (Search engines see this)",
+      "default": ""
+    }
+  ]
+}
