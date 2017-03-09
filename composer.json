@@ -1,0 +1,5 @@
+{
+    "name": "rcm/responsive-image",
+    "description": "RCM Block that shows different images based on boostrap view size",
+    "require": {}
+}
